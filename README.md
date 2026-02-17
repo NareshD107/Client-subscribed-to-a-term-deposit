@@ -22,10 +22,3 @@ The dataset `data.csv` contains client information such as:
 3. Ensure `data.csv` is in the same directory.
 """
 
-with open("Client-subscribed-to-a-term-deposit/README.md", "w") as f:
-    f.write(readme_content)
-
-%cd Client-subscribed-to-a-term-deposit
-!git add README.md
-!git commit -m "Added professional README"
-!git push -f https://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@github.com/NareshD107/Client-subscribed-to-a-term-deposit.git main
